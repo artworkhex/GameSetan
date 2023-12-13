@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="src/output.css" rel="stylesheet" />
     <link rel="stylesheet" href="src/effect.css" />
+    <!-- animasi aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QQSFNDWMGG"></script>
-<script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQSFNDWMGG"></script>
+    <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -17,34 +19,27 @@
     <link
       rel="icon"
       href="asset/black.png"
-      media="(prefers-color-scheme: light)"
-    />
+      media="(prefers-color-scheme: light)" />
     <link
       rel="icon"
       href="asset/white.png"
-      media="(prefers-color-scheme: dark)"
-    />
+      media="(prefers-color-scheme: dark)" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
-    />
-
-    
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 
     <title>Game Setan Official</title>
   </head>
 
   <body class="text-white bg-zinc-800 overflow-x-hidden">
     <header
-      class="text-white mb-20 bg-center bg-cover bg-no-repeat w-screen h-screen -z-20"
-    >
+      class="text-white mb-20 bg-center bg-cover bg-no-repeat w-screen h-screen -z-20">
       <video
         poster="asset/header2.jpg"
         class="w-screen h-screen absolute right-0 bottom-0 -z-10 object-cover"
         autoplay
         loop
-        muted
-      >
+        muted>
         <source src="asset/bgVideo.mp4" type="video/mp4" />
       </video>
       <!-- navbar -->
@@ -54,8 +49,7 @@
             <img
               class="ml-5 w-[130px] sm2:w-[200px] md2:w-[230px]"
               src="asset/logo.png"
-              alt=""
-            />
+              alt />
           </a>
         </div>
         <div class="hidden md2:flex">
@@ -64,14 +58,10 @@
           <a class="mx-3 hover:text-rose-500" href="#enemy">About</a>
           <a
             class="mx-3 hover:text-rose-500 border-2 border-white rounded px-3 hover:border-rose-500"
-            href="#Contact"
-            >Contact</a
-          >
+            href="#Contact">Contact</a>
           <a
             class="mx-3 items-center mr-8 hover:text-rose-500 hover:bg-transparent hover:border-rose-500 border-2 text-black bg-white rounded px-3"
-            href="pertanyaan/index.html"
-            >Hak Cipta</a
-          >
+            href="pertanyaan/index.html">Hak Cipta</a>
         </div>
       </nav>
       <div class="ml-5 bottom-0 absolute mb-5 bd cursor-vertical-text">
@@ -80,13 +70,13 @@
     </header>
 
     <!-- perkenalan -->
-    <div
-      class="block lg1:flex grid-cols-2 gap-3 mt-30 items-center mx-5 md1:px-10 mt-5"
-    >
-      <div class="">
+    <div data-aos="fade-right" data-aos-easing="ease-in-out"
+      data-aos-mirror="true" data-aos-anchor-placement="top-center"
+      data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+      class="block lg1:flex grid-cols-2 gap-3 mt-30 items-center mx-5 md1:px-10 mt-5">
+      <div class>
         <div
-          class="font-bold mb-3 ml-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7"
-        >
+          class="font-bold mb-3 ml-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7">
           The <span class="font-light">Setan Games </span>
         </div>
         <div class="text-xs sm1:text-sm sm2:text-base lg1:text-2xl mb-10">
@@ -105,42 +95,47 @@
           </span>
         </div>
       </div>
-      <img
-        class="w-[620px] sm1:w-[500px] sm2:w-[550px] md1:w-[720px] lg1:w-[550px] lg2:w-[700px] xl:w-[1000px]"
-        src="asset/mockup4.png"
-        alt=""
-      />
+      <div data-aos="fade-left" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300">
+        <img
+          class="w-[620px] sm1:w-[500px] sm2:w-[550px] md1:w-[720px] lg1:w-[550px] lg2:w-[700px] xl:w-[1000px]"
+          src="asset/mockup4.png"
+          alt />
+      </div>
     </div>
 
     <!-- judul utama 1 -->
     <div
       id="product"
-      class="font-bold px-10 mt-20 mb-10 ml-5 lg1:ml-10 text-3xl sm2:text-5xl an-top"
-    >
+      class="font-bold px-10 mt-20 mb-10 ml-5 lg1:ml-10 text-3xl sm2:text-5xl an-top">
       The Product
     </div>
     <!-- ----------------------------------------- -->
     <!-- konten 1 / produk 1 /season 1 -->
 
-    <div class="slide px-5 md1:px-12 content-center">
+    <div data-aos="fade-up" data-aos-easing="ease-in-out"
+      data-aos-mirror="true" data-aos-anchor-placement="top-center"
+      data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+      class="slide px-5 md1:px-12 content-center">
       <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s1/1.png" alt="" />
+            <img src="asset/GamePlay/s1/1.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s1/2.png" alt="" />
+            <img src="asset/GamePlay/s1/2.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s1/3.png" alt="" />
+            <img src="asset/GamePlay/s1/3.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s1/4.png" alt="" />
+            <img src="asset/GamePlay/s1/4.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s1/5.png" alt="" />
+            <img src="asset/GamePlay/s1/5.png" alt />
           </div>
           ...
         </div>
@@ -152,34 +147,34 @@
       </div>
     </div>
 
-    <div class="px-5 md1:px-12">
+    <div data-aos="fade-up" data-aos-easing="ease-in-out"
+      data-aos-mirror="true" data-aos-anchor-placement="top-center"
+      data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+      class="px-5 md1:px-12">
       <div class="mt-14 text-cent flex">
         <div>
           <video
             class="hidden md2:w-[750px] lg1:w-[1350px] lg2:w-[1750px] xl:w-[2050] md1:block"
             autoplay
             loop
-            muted
-          >
+            muted>
             <source src="asset/season1.mp4" type="video/mp4" />
           </video>
         </div>
         <a
           class="bd hidden ml-3 text-center font-light bg-neutral-700 hover:bg-neutral-800 md2:block md2:w-[100px] md1:text-6xl pl-5"
-          href="https://drive.google.com/drive/folders/1oWDv9SVpYgq3ZZ0XWjySQEe2ZJ-Q1874?usp=share_link"
-          >download</a
-        >
+          href="https://drive.google.com/drive/folders/1oWDv9SVpYgq3ZZ0XWjySQEe2ZJ-Q1874?usp=share_link">download</a>
       </div>
 
       <!-- keterangan -->
-      <div
-        class="mt-5 font-bold ml-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7 an-top"
-      >
+      <div data-aos="fade-left" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+        class="mt-5 font-bold ml-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7 an-top">
         Setan <span class="font-light"> Season 1 </span>
       </div>
       <div
-        class="mt-3 mb-20 text-xs sm1:text-sm sm2:text-base lg1:text-2xl an-top"
-      >
+        class="mt-3 mb-20 text-xs sm1:text-sm sm2:text-base lg1:text-2xl an-top">
         Setan season 1 adalah game yang menceritakan kisah anak kecil di hutan.
         Semua asset ini dibuat di platform adobe photoshop cc 2020.
         <br /><br />
@@ -192,25 +187,28 @@
     <!-- ----------------------------------------- -->
     <!-- konten 1 / produk 2 / season 2 -->
 
-    <div class="slide px-5 md1:px-12 content-center">
+    <div data-aos="fade-up" data-aos-easing="ease-in-out"
+      data-aos-mirror="true" data-aos-anchor-placement="top-center"
+      data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+      class="slide px-5 md1:px-12 content-center">
       <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s2/1.png" alt="" />
+            <img src="asset/GamePlay/s2/1.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s2/2.png" alt="" />
+            <img src="asset/GamePlay/s2/2.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s2/3.png" alt="" />
+            <img src="asset/GamePlay/s2/3.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s2/4.png" alt="" />
+            <img src="asset/GamePlay/s2/4.png" alt />
           </div>
           <div class="swiper-slide">
-            <img src="asset/GamePlay/s2/5.png" alt="" />
+            <img src="asset/GamePlay/s2/5.png" alt />
           </div>
           ...
         </div>
@@ -222,35 +220,36 @@
       </div>
     </div>
 
-    <div class="px-5 md1:px-12">
+    <div data-aos="fade-up" data-aos-easing="ease-in-out"
+      data-aos-mirror="true" data-aos-anchor-placement="top-center"
+      data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+      class="px-5 md1:px-12">
       <div class="flex mt-14">
         <a
           class="bd hidden mr-3 text-center font-light bg-neutral-700 hover:bg-neutral-800 md2:block md2:w-[100px] md1:text-6xl pl-5"
-          href="https://drive.google.com/drive/folders/1h1QUXXApfWImGKaLsAlIDXTKb5i93K7N?usp=share_link"
-          >download</a
-        >
+          href="https://drive.google.com/drive/folders/1h1QUXXApfWImGKaLsAlIDXTKb5i93K7N?usp=share_link">download</a>
         <div>
           <video
             class="hidden md2:w-[750px] lg1:w-[1350px] lg2:w-[1750px] xl:w-[2050] md1:block"
             autoplay
             loop
-            muted
-          >
+            muted>
             <source src="asset/season2.mp4" type="video/mp4" />
           </video>
         </div>
       </div>
 
       <!-- keterangan -->
-      <div class="text-right">
+      <div data-aos="fade-left" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+        class="text-right">
         <div
-          class="mt-5 font-bold mr-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7 an-top"
-        >
+          class="mt-5 font-bold mr-5 text-2xl sm2:text-4xl lg1:text-5xl lg1:mb-7 an-top">
           Setan <span class="font-light"> Season 2 </span>
         </div>
         <div
-          class="mt-3 mb-20 text-xs sm1:text-sm sm2:text-base lg1:text-2xl an-top"
-        >
+          class="mt-3 mb-20 text-xs sm1:text-sm sm2:text-base lg1:text-2xl an-top">
           Game setan season 2 adalah game lanjutan dari game setan season 1
           <br /><br />
           saat ini anak tersebut sadar bahwa dia telah diculik makhluk halus dan
@@ -264,10 +263,12 @@
 
     <!-- iklan -->
     <div
-      class="bg-zinc-900 px-5 md1:px-10 py-5 flex grid-cols-2 items-center justify-between w-screen"
-    >
-      <div>
-        <div class="text-xl font-bold sm1:text-xl md1:text-4xl an-left">
+      class="bg-zinc-900 px-5 md1:px-10 py-5 flex grid-cols-2 items-center justify-between w-screen">
+      <div data-aos="fade-left" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300">
+        <div
+          class="text-xl font-bold sm1:text-xl md1:text-4xl an-left">
           Hai <span class="font-light an-left"> Kamu!</span>
         </div>
         <br />
@@ -275,38 +276,42 @@
           Coba dan rasakan sensasi yang berbeda di setiap level
           <br />
           <span class="text-rose-600 hidden sm2:block">
-            Tunggu apa lagi? Coba sekarang!</span
-          >
+            Tunggu apa lagi? Coba sekarang!</span>
         </div>
       </div>
-      <div>
+      <div data-aos="fade-right" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300">
         <img
           class="right-0 w-[100px] sm1:w-[140px] sm2:w-[170px] lg1:w-[200px] lg2:w-[250px] an-left"
           src="asset/kuy.png"
-          alt=""
-        />
+          alt />
       </div>
     </div>
 
     <!-- judul utama 2 -->
     <div
       id="enemy"
-      class="font-bold px-10 mt-14 mb-6 ml-5 lg1:ml-10 text-3xl sm2:text-5xl lg1:mb-20 an-top"
-    >
+      class="font-bold px-10 mt-14 mb-6 ml-5 lg1:ml-10 text-3xl sm2:text-5xl lg1:mb-20 an-top">
       Top Enemy
     </div>
 
     <!-- konten 2 / enemy -->
     <div class="mx-5 md1:px-10 block sm2:flex items-center">
-      <img
-        class="w-[400px] sm1:w-[370px] sm2:w-[300px] md1:w-[440px] md2:w-[460px] lg1:w-[600px] an-top"
-        src="asset/mockup2.png"
-        alt=""
-      />
-      <div class="ml-5 mt-5">
+      <div data-aos="fade-right" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300">
+        <img
+          class="w-[400px] sm1:w-[370px] sm2:w-[300px] md1:w-[440px] md2:w-[460px] lg1:w-[600px] an-top"
+          src="asset/mockup2.png"
+          alt />
+      </div>
+      <div data-aos="fade-left" data-aos-easing="ease-in-out"
+        data-aos-mirror="true" data-aos-anchor-placement="top-center"
+        data-aos-once="false" data-aos-offset="0" data-aos-delay="300"
+        class="ml-5 mt-5">
         <div
-          class="text-xl ml-5 font-bold sm2:text-4xl lg1:text-5xl lg1:mb-7 an-top"
-        >
+          class="text-xl ml-5 font-bold sm2:text-4xl lg1:text-5xl lg1:mb-7 an-top">
           Asset <span class="font-light"> In Game</span>
         </div>
         <br />
@@ -319,7 +324,7 @@
 
     <br /><br /><br /><br /><br /><br /><br /><br />
     <div class="px-10">
-      <img class="" src="asset/history.png" alt="" />
+      <img class src="asset/history.png" alt />
     </div>
 
     <!-- footer -->
@@ -327,7 +332,7 @@
       <br />
       <div id="Contact" class="mx-5 md2:mx-10 text-2xl mt-20">
         <div>
-          <img class="w-[200px] mt-10 mb-5" src="asset/logo.png" alt="" />
+          <img class="w-[200px] mt-10 mb-5" src="asset/logo.png" alt />
           <div class="text-sm md2:text-xl">
             Hanya tersedia untuk Operasi Sistem Windows
             <br class="hidden" /><br />
@@ -337,22 +342,19 @@
           </div>
         </div>
         <div
-          class="flex mt-10 justify-between pb-10 items-center text-xs md2:text-xl"
-        >
+          class="flex mt-10 justify-between pb-10 items-center text-xs md2:text-xl">
           <!-- season 1 dan 2 -->
           <div>
             <span class="mr-3 mb-5">
               <a
-                href="https://drive.google.com/drive/folders/1oWDv9SVpYgq3ZZ0XWjySQEe2ZJ-Q1874?usp=share_link"
-              >
+                href="https://drive.google.com/drive/folders/1oWDv9SVpYgq3ZZ0XWjySQEe2ZJ-Q1874?usp=share_link">
                 <span class="hidden md2:inline-flex"> Download </span> Setan S1
               </a>
             </span>
             I
             <span class="ml-3">
               <a
-                href="https://drive.google.com/drive/folders/1h1QUXXApfWImGKaLsAlIDXTKb5i93K7N?usp=share_link"
-              >
+                href="https://drive.google.com/drive/folders/1h1QUXXApfWImGKaLsAlIDXTKb5i93K7N?usp=share_link">
                 <span class="hidden md2:inline-flex"> Download </span> Setan S2
               </a>
             </span>
@@ -363,36 +365,31 @@
               <img
                 class="w-[20px] md2:w-[30px] ml-3 md2:ml-5"
                 src="asset/medsos/instagram.png"
-                alt=""
-              />
+                alt />
             </a>
             <a href="https://www.youtube.com/channel/UChSq1GJ6ikwdUflQk5LE9Aw">
               <img
                 class="w-[20px] md2:w-[30px] ml-3 md2:ml-5"
                 src="asset/medsos/youtube.png"
-                alt=""
-              />
+                alt />
             </a>
             <a href="https://artworkhex.github.io/awh/">
               <img
                 class="w-[20px] md2:w-[30px] ml-3 md2:ml-5"
                 src="asset/medsos/website.png"
-                alt=""
-              />
+                alt />
             </a>
             <a href="https://www.facebook.com/artworkhex">
               <img
                 class="w-[20px] md2:w-[30px] ml-3 md2:ml-5"
                 src="asset/medsos/facebook.png"
-                alt=""
-              />
+                alt />
             </a>
             <a href="pertanyaan/index.html">
               <img
                 class="w-[20px] md2:w-[30px] ml-3 md2:ml-5"
                 src="asset/medsos/qanda.png"
-                alt=""
-              />
+                alt />
             </a>
           </div>
         </div>
@@ -402,5 +399,10 @@
     <!-- javascript sliders -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="src/script.js"></script>
+    <!-- anmimasi aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
